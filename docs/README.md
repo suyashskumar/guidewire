@@ -62,10 +62,10 @@ The model's performance was evaluated using:
 ---
 
 ## 5. Issues Encountered & Resolutions  
-### **Error: `NameError: name 'loaded_model' is not defined`**  
+**Error: `NameError: name 'loaded_model' is not defined`**  
 **Fix:** Assigned trained model (`rf_classifier`) to `loaded_model` before making predictions.  
 
-### **Correlation Calculation Error: Strings in the dataset caused a failure in `df.corr()`**  
+**Correlation Calculation Error: Strings in the dataset caused a failure in `df.corr()`**  
 **Fix:** Computed correlation only for numerical columns.  
 
 ---
@@ -89,4 +89,4 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 ## Contributors  
 - **Team Wiz**
-- Suyash Kumar, Priyanshu Arora, Anushka Pandey
+  - Suyash Kumar, Priyanshu Arora, Anushka Pandey
